@@ -1,0 +1,30 @@
+<html>
+<head>
+  <title>Example use of NOAA to Climacons JSON variable</title>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script type="text/javascript">
+    var getClimacon = {};
+  </script>
+</head>
+<body>
+  <form id="example" accept-charset="utf-8">
+    Enter a noaa filename:
+    <input type="text" id="noaa" value="wave.jpg">
+    <input type="submit">
+  </form>
+
+  <script>
+    // this will only work on a web server, not locally
+    $(document).ready(function() {
+      $.getJSON("noaa-to-climacons.json", function(json) {
+        getClimacon = json;
+      });
+      $("#example").submit(function(event) {
+        alert(getClimacon[$("#noaa").val()]);
+        return false;
+      });
+    });
+  </script>
+
+</body>
+</html>
