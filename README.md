@@ -1,9 +1,12 @@
-noaa-climacons
-==============
+climacons-babelfish
+===================
 
-A simple JSON hash that converts NOAA's 90's-era weather images to [@adamwhitcroft's](https://twitter.com/adamwhitcroft) much prettier Climacons.
+JSON hashes to convert various weather icons into [@adamwhitcroft's](https://twitter.com/adamwhitcroft) much prettier Climacons.
 
 [Download Climacons here](http://adamwhitcroft.com/climacons/)
+
+
+## NOAA
 
 We're keeping an updated list of icon matches in a Google Doc here, request sharing access to contribute:
 * [NOAA images to Climacons Conversion Table](https://docs.google.com/a/theredpost.com/spreadsheets/d/1VGStbCok1r1oyWz76ZZao3DAE5R2bF1tL_sbjWB-XXI/edit#gid=0)
